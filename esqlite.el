@@ -593,6 +593,7 @@ Cygwin: FILE contains multibyte char, may fail to open FILE as database."
                  "-batch"
                  "-init" ,init
                  "-csv"
+                 "-newline" "\n"
                  "-nullvalue" ,null
                  ;; prior than preceeding args
                  ,@args
